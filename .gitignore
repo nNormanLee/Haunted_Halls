@@ -5,11 +5,10 @@ App/
 Assets/AssetStoreTools*
 Library/
 Logs/
-Obj/
 Temp/
 Il2CppOutputProject/
 bin/
-obj/
+
 
 WSATestCertificate.pfx
 WSATestCertificate.pfx.meta
