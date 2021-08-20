@@ -60,3 +60,7 @@ Thumbs.db
 **/Assets/PlayServicesResolver*
 **/Assets/Plugins*
 *.psd
+
+Assets/Horror_Pack_1/Toilet_Props/Textures/Toilet_Combined_basecolor.psd.meta
+
+Assets/MRTK/SDK/StandardAssets/Sprites/DefaultIconsSpriteSheet.psd.meta
