@@ -14,13 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hashCode: 406046580
   material: {fileID: 21433621844796372}
-  materialHashCode: -134358913
+  materialHashCode: -2075547564
   m_Version: 1.1.0
   m_SourceFontFileGUID: c71476de4226d984e89e2961aace066b
   m_SourceFontFile_EditorRef: {fileID: 0}
   m_SourceFontFile: {fileID: 0}
   m_AtlasPopulationMode: 0
   m_FaceInfo:
+    m_FaceIndex: 0
     m_FamilyName: Segoe UI
     m_StyleName: 
     m_PointSize: 68
@@ -28,7 +29,7 @@ MonoBehaviour:
     m_LineHeight: 90.4375
     m_AscentLine: 73.375
     m_CapLine: 47.625
-    m_MeanLine: 0
+    m_MeanLine: 34
     m_Baseline: 0
     m_DescentLine: -17.0625
     m_SuperscriptOffset: 73.375
@@ -1827,6 +1828,8 @@ MonoBehaviour:
   m_AtlasTextures:
   - {fileID: 28547693931371446}
   m_AtlasTextureIndex: 0
+  m_IsMultiAtlasTexturesEnabled: 0
+  m_ClearDynamicDataOnBuild: 0
   m_UsedGlyphRects: []
   m_FreeGlyphRects: []
   m_fontInfo:
@@ -2909,11 +2912,11 @@ Material:
     - _VertexOffsetY: 0
     - _WeightBold: 0.75
     - _WeightNormal: 0
-    - _ZWrite: 0
+    - _ZWrite: 1
     m_Colors:
     - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
     - _EnvMatrixRotation: {r: 0, g: 0, b: 0, a: 0}
-    - _FaceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FaceColor: {r: 0.4730312, g: 0.3503108, b: 0.3503108, a: 1}
     - _GlowColor: {r: 0, g: 1, b: 0, a: 0.5}
     - _MaskCoord: {r: 0, g: 0, b: 32767, a: 32767}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
@@ -2940,6 +2943,8 @@ Texture2D:
   m_TextureFormat: 1
   m_MipCount: 1
   m_IsReadable: 0
+  m_IgnoreMasterTextureLimit: 0
+  m_IsPreProcessed: 0
   m_StreamingMipmaps: 0
   m_StreamingMipmapsPriority: 0
   m_AlphaIsTransparency: 0
