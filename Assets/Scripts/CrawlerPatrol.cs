@@ -12,7 +12,6 @@ public class CrawlerPatrol : MonoBehaviour
     public float distanceAway = 10f;
     public float speed = 1f;
     Vector3 _originalPosition;
-    private float yRot = 0;
     public bool isGoingLeft = false;
     public bool isGoingAway = false;
     public float xDistFromStart;
