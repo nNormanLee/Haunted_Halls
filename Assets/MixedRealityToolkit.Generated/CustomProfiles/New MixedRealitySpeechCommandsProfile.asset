@@ -52,9 +52,9 @@ MonoBehaviour:
       description: None
       axisConstraint: 0
   - localizationKey: 
-    keyword: Klaatu barada nikto
+    keyword: Klaatu Barada Nikto
     keyCode: 53
     action:
-      id: 6
-      description: Trigger
-      axisConstraint: 3
+      id: 0
+      description: None
+      axisConstraint: 0
