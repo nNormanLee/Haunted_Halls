@@ -17029,6 +17029,98 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 239363557}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &240958734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 240958736}
+  - component: {fileID: 240958735}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!108 &240958735
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240958734}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &240958736
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240958734}
+  m_LocalRotation: {x: 0.7285309, y: -0.16464444, z: 0.18807183, w: 0.63778055}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 97.6, y: -28.95, z: 0}
 --- !u!1001 &241853431
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20460,7 +20552,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 47157462116e37f43a3df7aa74de1f66,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 47157462116e37f43a3df7aa74de1f66,
         type: 3}
@@ -20512,10 +20604,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: 47157462116e37f43a3df7aa74de1f66,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c4a1b7475a654dd0acaa0cfdfba2e20c, type: 2}
     - target: {fileID: 919132149155446097, guid: 47157462116e37f43a3df7aa74de1f66,
         type: 3}
       propertyPath: m_Name
-      value: SpatialMapping (16)
+      value: North Center Map Red
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 47157462116e37f43a3df7aa74de1f66,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47157462116e37f43a3df7aa74de1f66, type: 3}
@@ -24104,7 +24206,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -45.47, z: 0}
 --- !u!1001 &440963806
 PrefabInstance:
@@ -24697,7 +24799,7 @@ Transform:
   m_Children:
   - {fileID: 915164411}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &464661112
 GameObject:
@@ -43386,7 +43488,7 @@ Transform:
   - {fileID: 62046838}
   - {fileID: 1076278182597754667}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &802402001
 MonoBehaviour:
@@ -56403,7 +56505,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -178.2, z: 0}
 --- !u!4 &1218141330 stripped
 Transform:
@@ -57208,7 +57310,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1242870778
 GameObject:
@@ -71440,12 +71542,12 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1501581327}
-  - {fileID: 1740090403}
-  - {fileID: 1076278183328461188}
-  - {fileID: 1076278184043106654}
-  - {fileID: 72117261}
   - {fileID: 1076278184263914779}
+  - {fileID: 1740090403}
   - {fileID: 353243524}
+  - {fileID: 72117261}
+  - {fileID: 1076278184043106654}
+  - {fileID: 1076278183328461188}
   m_Father: {fileID: 62046838}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -41.74, z: 0}
@@ -74223,7 +74325,7 @@ Transform:
   - {fileID: 1089173706}
   - {fileID: 1072716734}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!4 &1464535820 stripped
 Transform:
@@ -75230,7 +75332,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ccfa6ab9a47a5024c866fc409c6bee8d,
         type: 3}
       propertyPath: m_Name
-      value: SpatialMapping (12)
+      value: Far West Map Green
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ccfa6ab9a47a5024c866fc409c6bee8d,
         type: 3}
@@ -82175,7 +82277,7 @@ Transform:
   m_Children:
   - {fileID: 1999874958}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1738658724
 GameObject:
@@ -82280,7 +82382,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e39f67c8e5fa49348ac49613f4de3e44,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e39f67c8e5fa49348ac49613f4de3e44,
         type: 3}
@@ -82332,10 +82434,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: e39f67c8e5fa49348ac49613f4de3e44,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53ea63593b32415faf734536616f5fb3, type: 2}
     - target: {fileID: 919132149155446097, guid: e39f67c8e5fa49348ac49613f4de3e44,
         type: 3}
       propertyPath: m_Name
-      value: SpatialMapping (5)
+      value: North West Cyan
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e39f67c8e5fa49348ac49613f4de3e44,
         type: 3}
@@ -84086,7 +84193,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1823674529
 PrefabInstance:
@@ -105141,7 +105248,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d489b5c83656bd2418ebf46f7a07d7c2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d489b5c83656bd2418ebf46f7a07d7c2,
         type: 3}
@@ -105196,7 +105303,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d489b5c83656bd2418ebf46f7a07d7c2,
         type: 3}
       propertyPath: m_Name
-      value: SpatialMapping (8)
+      value: Far East Map
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d489b5c83656bd2418ebf46f7a07d7c2,
         type: 3}
@@ -105416,7 +105523,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 3908c6cb502966b488cb0316b5319250,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3908c6cb502966b488cb0316b5319250,
         type: 3}
@@ -105476,7 +105583,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3908c6cb502966b488cb0316b5319250,
         type: 3}
       propertyPath: m_Name
-      value: SpatialMapping (10)
+      value: South East Map Blue
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3908c6cb502966b488cb0316b5319250,
         type: 3}
@@ -105565,7 +105672,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: bcada20dafed31740bd2f6113b13edf3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bcada20dafed31740bd2f6113b13edf3,
         type: 3}
@@ -105625,7 +105732,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bcada20dafed31740bd2f6113b13edf3,
         type: 3}
       propertyPath: m_Name
-      value: SpatialMapping (4)
+      value: West Map Yellow
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: bcada20dafed31740bd2f6113b13edf3,
         type: 3}
@@ -105641,6 +105748,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: bcada20dafed31740bd2f6113b13edf3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcada20dafed31740bd2f6113b13edf3, type: 3}
@@ -105725,7 +105837,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0cbab8fde8c473d4e97e382cf6ec358f,
         type: 3}
       propertyPath: m_Name
-      value: SpatialMapping
+      value: Center Map Purple
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0cbab8fde8c473d4e97e382cf6ec358f,
         type: 3}
