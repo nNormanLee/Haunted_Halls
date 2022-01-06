@@ -641,9 +641,9 @@ PlayerSettings:
   metroPackageVersion: 1.0.0.0
   metroCertificatePath: Assets/WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: World Locking Tools
-  metroCertificateIssuer: World Locking Tools
-  metroCertificateNotAfter: 800b5980a18dd801
+  metroCertificateSubject: Isolation Interactive
+  metroCertificateIssuer: Isolation Interactive
+  metroCertificateNotAfter: 8020ab47d61fd901
   metroApplicationDescription: Template_3D
   wsaImages: {}
   metroTileShortName: FrozenWorldDemo
