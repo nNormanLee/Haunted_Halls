@@ -8,6 +8,12 @@ public class CubeKey : MonoBehaviour
     
     public GameObject quad;
 
+    public Animator mortician;
+
+    public AudioSource keyComplete;
+
+    public ParticleSystem keyParticles;
+
 
     void Awake()
     {
@@ -31,6 +37,9 @@ public class CubeKey : MonoBehaviour
         if (other.gameObject.Equals(otherCube))
         {
             quad.SetActive(true);
+            mortician.SetTrigger("ThumbsUp");
+            keyComplete.Play();
+            keyParticles.Stop();
         }
     }
 }
